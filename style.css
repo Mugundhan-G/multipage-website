@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #ab112d !important;
+}
+
+a{
+    font-weight: bold;
+}
+
+.nav-item:hover .nav-link {
+    color: #ffff;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.small-heading {
+    font-weight: bold;
+}
+
+.blueline {
+    width: 80px;
+    height: 2px;
+    background-color: #2281e6af;
+    margin: 30px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.content {
+    line-height: 2;
+}
+
+.box {
+    background-color: rgb(245, 245, 169);
+}
+
+.btn-home {
+    background-color: #ab112d;
+    color: #fff;
+}
+
+.btn-home:hover {
+    background-color: #7bb1ea;
+    color: #fff;
+}
+
+.bi-briefcase {
+    font-size: 2rem;
+    color: orange;
+}
+
+.bi-bar-chart {
+    font-size: 2rem;
+    color: rgb(209, 97, 134);
+}
+
+.bi-card-checklist {
+    font-size: 2rem;
+    color: #28a745;
+}
+
+.container-f {
+    background-color: #ab112d;
+    color: white;
+}
+
+/*About*/
+.about-box {
+    background-color: rgb(245, 245, 169);
+}
+
+.home-link {
+    color: black;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+.dummy {
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.dummy::before {
+    content: "/";
+    display: inline-block;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.bi-check-circle-fill {
+    font-size: 1.5rem;
+    color: lightskyblue;
+}
+
+/*services*/
+.service-link {
+    color: #bb203d;
+    text-decoration: none;
+}
+
+.service-link:hover {
+    text-decoration: underline;
+}
+
+.service-link::before {
+    content: "/";
+    display: inline-block;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.container-img {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+/*contact*/
+
+.contact-img {
+    height: 100vh;
+}
+
+.bi-envelope-contact {
+    font-size: 1.5rem;
+}
+
+.bi-phone-contact {
+    font-size: 1.5rem;
+}
